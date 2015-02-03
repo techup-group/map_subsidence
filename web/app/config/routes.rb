@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+    get 'gis_data/map.json' => 'gis_data#get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

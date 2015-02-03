@@ -1,4 +1,6 @@
 # map_subsidence
+
+[![Join the chat at https://gitter.im/code-for-tb/map_subsidence](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/code-for-tb/map_subsidence?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A web application that imports, manages, and exports subsidence reports
 
 # Running

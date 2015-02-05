@@ -10,6 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+
+
+// require tree is no longer in this file, you must include all new stylesheets with
+// the import directive i.e @import 'stylesheet_name' similarily to the files below.
+
+@import 'bourbon';
+@import 'neat';
+@import "grid_settings";
+@import 'gis_data';

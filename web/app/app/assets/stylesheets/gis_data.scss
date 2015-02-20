@@ -1,3 +1,30 @@
 // Place all the styles related to the gis_data controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#content {
+
+    @include outer-container;
+
+  
+
+
+
+      #map {
+          height: 750px;
+          @include span-columns(12);
+
+          @include media($mobile){
+            @include span-columns(4);
+            height:450px;
+          }
+          @include media($tablet){
+            @include span-columns(8);
+            height: 500px;
+          }
+
+        }
+
+  }

@@ -1,5 +1,7 @@
 web:
     image: rails
+    command: './server.sh'
     volumes:
         - web:/home/rails
     working_dir: /home/rails
+

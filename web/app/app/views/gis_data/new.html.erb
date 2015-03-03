@@ -1,0 +1,11 @@
+<%= form_for :gis_data, url: gis_data_path do |f| %>
+    <p>
+    <%= f.label :latitude %>
+    <%= f.text_field :latitude %>
+    </p>
+    <p>
+    <%= f.label :longitude %>
+    <%= f.text_field :longitude %>
+    </p>
+    <%= f.submit %>
+<% end %>

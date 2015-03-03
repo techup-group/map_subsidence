@@ -6,7 +6,7 @@ A web application that imports, manages, and exports subsidence reports
 # Running
 
 ```bash
-$ rails server -b 0.0.0.0
+$ fig up -d
 ```
 
 # Viewing

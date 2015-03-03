@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
     get 'gis_data/map.json' => 'gis_data#get'
+    get 'gis_data/upload' => 'gis_data#upload'
     resources :gis_data
     root 'gis_data#index'
 

@@ -26,7 +26,7 @@ var vector = new ol.layer.Vector({
     source: new ol.source.GeoJSON({
         extractStyles: false,
         projection: 'EPSG:3857',
-        url: 'map.json'
+        url: 'gis_data/map.json'
     }),
     style: styleFunction
 });

@@ -1,0 +1,9 @@
+<%= form_for :gis_data, url: gis_data_path do |f| %>
+
+    <p>
+    <%= f.label :csv %>
+    <%= f.file_field :csv %>
+    </p>
+
+    <%= f.submit %>
+<% end %>
